@@ -1,0 +1,115 @@
+body{
+	margin:0px;
+}
+#body {
+  height: 100%;
+  bottom:0px;
+  font-family: Arial;
+}
+#header{
+    background-color: #D3D3D3;
+    font-family: Arial;
+    padding: 30px;
+    text-align:left;
+}
+h1{
+	font-weight: normal;
+}
+.taskdiv{
+	margin:15px;
+	padding:14px 20px 40px 20px;
+	background-color:#33A2FF;
+}
+.searchDiv{
+	float:left;
+}
+.searchBox{
+    padding:3px;
+}
+.criteria{
+	float:right;
+}
+button{
+	padding:5px;
+	margin:2px;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	background-color:#F3AC4F;
+	border-radius:5px;
+}
+.btnactivecls{
+    background:#D2691E;
+}
+#mainDiv {
+   margin:20px 25px;
+   height:100%;
+}
+.titlecls{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.ratingcls{
+	background-color: #fff;
+    right:1%;
+    margin: 10px;
+    position:absolute;
+    padding:4px;
+}
+.thumbnailcls{
+	position:relative;
+}
+.videoBlock {
+    float:left;
+    padding: 33px;
+    width:28%;
+    
+}
+.thumbnailImg{
+	width:100%;
+	height:auto;
+}
+.tagsDiv{
+	float:left;
+	margin-top:8px;
+	width:auto;
+}
+.tags{
+	width:auto;
+	color: #fff;
+    background-color: #80808D;
+	padding:2px 5px 3px 5px;
+	margin-right:10px;
+	border-radius:8px;
+}
+.timeDiv{
+	float:right;
+	margin-top:3px;
+	width:auto;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+	.taskdiv{
+	    margin: 10px 10px 0px 10px;
+	    padding: 14px 20px 22px 20px;
+	}
+	.searchDiv {
+		float:none;
+	}
+	.criteria {
+		float:none;
+		margin-top:10px;
+	}
+	.videoBlock {
+		padding: 10px;
+		width: 94%;
+	}
+}
+#footer{
+   display:none;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
